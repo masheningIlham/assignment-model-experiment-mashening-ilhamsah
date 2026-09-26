@@ -64,8 +64,8 @@ Model klasik tidak memiliki biaya API per prediction setelah infrastruktur terse
 Pada dataset ini, kedua pendekatan menghasilkan Accuracy, Precision, Recall, dan F1-Score sempurna, walaupun terdapat limitasi dataset seperti yang telah disebutkan. Dengan mempertimbangkan kebutuhan use case yaitu menampilkan klasifikasi sentimen ulasan pada halaman produk, technical approach yang dipilih adalah menggunakan model ML Scikit-Learn karena secara performa setara dengan LLM Gemini API tetapi tidak membutuhkan biaya dan latensi yang jauh lebih rendah, dengan catatan bahwa hasil eksperimen terbatas pada dataset dan konfigurasi yang digunakan.
 
 
-## 6. Cara Menjalankan FileBuka folder project menggunakan Visual Studio Code.
-1. Buka terminal pada direktori fiel requirements.txt
+## 6. Cara Menjalankan File
+1. Buka terminal pada direktori file requirements.txt
 2. Install dependencies:
 pip install -r requirements.txt
 3. Siapkan file .env di dalam folder notebook dan gunakan API key Gemini Anda sebagai variable API_KEYS di dalam file .env
